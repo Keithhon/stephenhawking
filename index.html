@@ -1,0 +1,172 @@
+<!--Student Name: Kit Lung Keith Hon - Student Number: 8951521-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">      <!--meta tag for responsive web design-->
+    <meta name="keywords" content="Stephen Hawking, theoretical physicist, cosmologist, famous scientist">      <!--meta tag for SEO-->
+    <meta name="description" content="A brief biography of Stephen Hawking (1942 - 2018) who is one of the most recognisable scientists of modern times"> <!--meta tag for SEO-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">                       <!--meta tag for cross browser compatibility-->
+    <title>Stephen Hawking - a brief biography</title>
+</head>
+
+<body>
+    <!--the Heder-->
+    <header>        
+        <h1>Stephen Hawking</h1>
+    </header>
+
+    <!--the Main-->
+    <main>
+        <!--the first main-section is for "bilography"-->
+        <section class="main-section" id="bilography">
+            <h2>Bilography</h2>
+            <p>
+            <blockquote cite="https://www.britannica.com/biography/Stephen-Hawking">
+                <strong>Stephen Hawking</strong> (born January 8, 1942, Oxford, Oxfordshire, England — died March 14, 2018, Cambridge, Cambridgeshire) was an English theoretical physicist 
+                whose theory of exploding black holes drew upon both relativity theory and quantum mechanics. 
+                He also worked with space-time singularities.
+                <br>
+                <cite><b>— Britannica</b></cite>
+            </blockquote>
+            </p>
+        </section>
+
+        <!--the second main-section is for "image"-->
+        <section class="main-section" id="image">
+            <h2>Image</h2>
+            <p>
+            <figure>
+            <img src="images/portrait_hawking.png" alt="A portrait photo of Stephen Hawking sitting in his wheelchair and looking up"
+            title="A portrait photo of Stephen Hawking with his wheelchair in 1985" style="width:30%;">     <!--added style to make the image responsive-->
+            <figcaption>Stephen Hawking's portrait photo in 1985.</figcaption>
+            </figure>
+            </p>
+        </section>
+
+        <!--the third main-section is for "quote"-->
+        <section class="main-section" id="quote">
+            <h2>Quote</h2>
+            <p><q cite="https://www.cnn.com/2018/03/14/world/quotes-stephen-hawking/index.html">However difficult life may seem, there is always something you can do and succeed at.
+                It matters that you don't just give up.</q><br>
+                <cite><b>— Stephen Hawking, 2016</b></cite>
+            </p>
+        </section>
+
+        <!--the fourth main-section is for "video"-->
+        <section class="main-section" id="video">
+            <h2>Video</h2>
+            <div>
+                <!--a description of the video-->
+                <p>
+                    In 2014, a biographical film of Stephen Hawking (acted by Eddie Redmayne), <em>The Theory of Everything</em>, was released.
+                    Hawking collaborated with the production team, and allowed his own synthesised voice to be used on the soundtrack.
+                </p>
+                <!--the video from Youtube-->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Salz7uGp72c?si=MX7K8CASsMmNZKO9" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <!--the Aside-->
+    <aside>
+        <!--the first aside section is for "resources"-->
+        <section class="aside-section" id="resources">
+            <h2>Resources</h2>
+            <p>For more information about Stephen Hawking, please find the links below:</p>
+            <ul>
+                <li><a href="https://www.cam.ac.uk/stephenhawking" target="_blank" 
+                    title="Stephen Hawking's obituary broadcasted by the University of Cambridge">University of Cambridge</a></li>
+                <li><a href="https://royalsocietypublishing.org/doi/10.1098/rsbm.2019.0001" target="_blank" 
+                    title="Stephen Hawking's memoir published by the Royal Society Publishing">The Royal Society Publishing</a></li>
+                <li><a href="https://www.bbc.co.uk/teach/articles/z43k382" target="_blank" 
+                    title="A brief history of Stephen Hawking written by BBC">BBC</a></li>
+            </ul>
+        </section>
+
+        <!--the second aside section is for "contact-form"-->
+        <section class="aside-section" id="contact-form">
+            <h2>Contact Form</h2>
+            <form method="post" action="contact.php" name="contact-us" id="contact-us">
+            
+                <!--a dropdown list-->
+                <div>
+                    <label class="form-label" for="user-title">Title:</label>           
+                    <select class="form-control" id="user-title">
+                        <option value="Select-option" selected>Select option</option>   <!--"Select option" is the default choice by adding attribute "selected"-->
+                        <option value="Mr.">Mr.</option>
+                        <option value="Ms.">Ms.</option>
+                        <option value="Mrs.">Mrs.</option>
+                        <option value="Mx.">Mx.</option>
+                        <option value="Dr.">Dr.</option>
+                      </select>
+                </div>
+                <br>
+
+                <!--the first input element is for "user-name"-->
+                <div>
+                    <label class="form-label" for="user-name">User Name:</label>        
+                    <input class="form-control" type="text" name="user-name" id="user-name" autofocus
+                    placeholder="Your user name" required>                              <!--added attributes "autofocus", "placeholder, "required"-->
+                </div>
+                <br>
+
+                <!--the second input element is for "password"-->
+                <div>
+                    <label class="form-label" for="password">Password:</label>          
+                    <input class="form-control" type="password" name="password" id="password" maxlength="18" size="22" required> <!--added attribute "required"-->
+                </div>
+                <br>
+
+                <!--added a HTML5 element "email" input field-->
+                <div>
+                    <label class="form-label" for="email">Email:</label>                
+                    <input class="form-control" type="email" name="email" id="email">
+                </div>
+                <br>
+
+                <!--added a textarea-->
+                <div>
+                    <label class="form-label" for="comments">Comments:</label>          
+                    <textarea class="form-control" name="comments" id="comments" cols="50" rows="5"></textarea>
+                </div>
+                <br>
+
+                <!--added a checkbox for "notification"-->
+                <div>
+                    <label class="form-label" for="notification">Notify me of follow-up comments via email.</label> 
+                    <input class="form-control" type="checkbox" value="yes" name="notification" id="notification">
+                </div>
+                <br>
+
+                <!--added a button for "reset"-->
+                <div>
+                    <label class="form-label" for="clear-button">Clear form:</label>    
+                    <input class="form-control" type="reset" name="reset" value="Clear" id="clear-button" >
+                </div>
+                <br>
+
+                <!--added a button for "submit"-->
+                <div>                
+                    <label class="form-label" for="submit-button">Submit form:</label>
+                    <input class="form-control" type="submit" name="submit" value="Submit" id="submit-button" >
+                </div>   
+            </form>
+        </section>
+    </aside>
+
+    <br><br>
+
+    <!--the Footer-->
+    <footer>
+        <p>Copyright&copy;2024 Keith Hon. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
