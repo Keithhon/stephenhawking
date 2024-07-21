@@ -9,12 +9,14 @@
     <meta name="keywords" content="Stephen Hawking, theoretical physicist, cosmologist, famous scientist">      <!--meta tag for SEO-->
     <meta name="description" content="A brief biography of Stephen Hawking (1942 - 2018) who is one of the most recognisable scientists of modern times"> <!--meta tag for SEO-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">                       <!--meta tag for cross browser compatibility-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Stephen Hawking - a brief biography</title>
 </head>
 
 <body>
     <!--the Heder-->
-    <header>        
+    <header id="top" class="body-header">        
         <h1>Stephen Hawking</h1>
     </header>
 
@@ -39,9 +41,9 @@
             <h2>Image</h2>
             <p>
             <figure>
-            <img src="images/portrait.png" alt="A portrait photo of Stephen Hawking sitting in his wheelchair and looking up"
-            title="A portrait photo of Stephen Hawking with his wheelchair in 1985" style="width:30%;">     <!--added style to make the image responsive-->
-            <figcaption>Stephen Hawking's portrait photo in 1985.</figcaption>
+                <img src="images/portrait.png" alt="A portrait photo of Stephen Hawking sitting in his wheelchair and looking up"
+                title="A portrait photo of Stephen Hawking with his wheelchair in 1985">
+                <figcaption>Stephen Hawking's portrait photo in 1985.</figcaption>
             </figure>
             </p>
         </section>
@@ -68,7 +70,7 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Salz7uGp72c?si=MX7K8CASsMmNZKO9" 
                 title="YouTube video player" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="iframe"></iframe>
             </div>
         </section>
 
