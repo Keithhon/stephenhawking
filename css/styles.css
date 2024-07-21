@@ -1,7 +1,7 @@
 /* Student Name: Kit Lung Keith Hon - Student Number: 8951521 */
 
-/* Root element html */
-html {
+/* root element html */
+html{
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
@@ -18,18 +18,18 @@ body{
     width: 100%;
     margin: auto;
 }
-/* Multiple-selector for header, footer, main, and aside */
-header, footer, main, aside {
+/* multiple-selector for header, footer, main, and aside */
+header, footer, main, aside{
     margin: 0.2rem;
     padding: 0.2rem;
 }
 /* header */
-header {
+header{
     background: linear-gradient( #0e1329,#b84c8b,#0e1329);
     border: 0.2rem dashed #02eeac;
 }
 /* footer */
-footer {
+footer{
     clear : both;
     background: linear-gradient( #0e1329,#b84c8b,#0e1329);
     color: white;
@@ -37,24 +37,24 @@ footer {
     border: 0.2rem dashed #02eeac;
 }
 /* main */
-main {
+main{
     width: 68.25%;
     float: left;
 }
 /* aside */
-aside {
+aside{
     width: 29.25%;
     float: left;
 }
 /* h1 */
-h1 {
+h1{
     color:white;
     font-size: 2.5rem;
     text-align: center;
     text-transform: uppercase;
 }
 /* main-section class (using class selector)*/
-.main-section {
+.main-section{
     color: #e9d49f;
 }
 /* h2 (using descendant selector) */
@@ -67,12 +67,12 @@ h1 {
     text-align: center;
 }
 /* biography */
-#biography {
+#biography{
     float: left;
     width: 50%;
 }
 /* blockquote */
-#blockquote {
+#blockquote{
     font-variant: small-caps;
     text-align: left;
 }
@@ -120,68 +120,68 @@ figure img + figcaption{
     box-shadow: 0.4rem 0.4rem 0.25rem grey;
 }
 /* iframe (using ID selector) */
-#iframe {
+#iframe{
     padding:0.2rem;
     border: 0.2rem solid #02eeac;
 }
 /* h2 of aside-section */
-.aside-section > h2 {
+.aside-section > h2{
     font-variant: small-caps;
     font-weight: bold;
     color: #02eeac;
     text-align: center;
 }
 /* link of aside-section */
-.aside-section ul {
+.aside-section ul{
     list-style-type: none;
     line-height: 2.5rem;
 }
 /* paragraph of aside-section */
-.aside-section p {
+.aside-section p{
     font-style: italic;
     color: #e9d49f;
 }
-/*  form-labels of aside-section */
-.form-label {
+/* form-labels of aside-section */
+.form-label{
     font-variant: small-caps;
     font-weight: bold;
     font-style: italic;
     color: #e9d49f;
     text-align: center;
 }
-/*  for all input controls (in the same class) of aside-section */
-.form-control {
+/* for all input controls (in the same class) of aside-section */
+.form-control{
     height: 100%;
     width: 60%;
     text-align: left;
 }
 /* textarea element of aside-section */
-textarea[name=comments] {
+textarea[name=comments]{
     height: 100%;
     width: 100%;
     text-align: left;
 }
 /* drop-down list of aside-section */
-#user-title {
+#user-title{
     width: 45%;
 }
 /* label of notification of aside-section for the checkbox*/
-label[for="notification"] {
+label[for="notification"]{
     word-wrap:break-word;
     width: 80%;
 }
 /* checkbox of aside-section */
-input[type="checkbox"] {
+input[type="checkbox"]{
     width: 10%;
     vertical-align: left;
 }
 /* the Clear button */
-input[type="reset"] {
+input[type="reset"]{
     width: 25%;
     text-align: center;
 }
 /* the Submit button */
-input[type="submit"] {
+input[type="submit"]{
     width: 25%;
     text-align: center;
 }
@@ -194,17 +194,17 @@ a:link{
 a:visited{
     color:#df1a8d; 
 }
-/*mouse over link*/
+/* mouse over link*/
 a:hover{ 
     color:gold; 
     text-decoration: underline;
 } 
-/*selected link*/
+/* selected link*/
 a:active{
     color:grey; 
 } 
-/* Responsive design */
-@media (max-width : 600px) {
+/* responsive design */
+@media (max-width : 600px){
     html{
         font-size : 12px;
         padding:0.2rem;
