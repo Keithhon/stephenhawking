@@ -117,7 +117,7 @@ figure img + figcaption{
     color:gold;
     text-align: center;
     border: 0.2rem solid #02eeac;
-    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem grey;
+    box-shadow: 0.4rem 0.4rem 0.25rem grey;
 }
 /* iframe (using ID selector) */
 #iframe {
